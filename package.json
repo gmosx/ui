@@ -1,0 +1,9 @@
+{
+    "name": "ui",
+    "description": "Client side user interface library",
+    "keywords": ["client", "ui", "ajax"],
+    "author": "George Moschovitis",
+    "email": "george.moschovitis@gmail.com",
+    "dependencies": [],
+    "lib": "lib",
+}
