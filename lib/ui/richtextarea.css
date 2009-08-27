@@ -1,0 +1,8 @@
+textarea.richtextarea {
+    display: none;
+}
+
+iframe.richtextarea {
+    border: 1px solid #ccc;
+}
+

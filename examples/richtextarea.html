@@ -2,33 +2,34 @@
 <html>
     <head>
         <style>
-        textarea.rte {
+        textarea.richtextarea {
             display: none;
         }
         
-        iframe.rte {
+        iframe.richtextarea {
             border: 1px solid #ccc;
         }
         </style>
     </head>
     <body>
         <form>
-            <textarea name="content" id="content" class="rte" style="width: 640px; height: 480px">
+            <textarea name="content" id="content" class="richtextarea" style="width: 640px; height: 480px">
                 Hello <b>koo</b><br /><br />
                 How are you?? All ok?
             </textarea>
             <br/>
             <button type="submit" id="save">Save</button>
         </form>
+        <script>
+            exports = {};
+        </script>
         <script src="jquery.js"></script>        
-        <script src="rte.js"></script>
+        <script src="../lib/ui/richtextarea.js"></script>
         <script>
         $(document).ready(function() {
-//            var rte = new RichTextEditor("#content");            
-            var editors = RichTextEditor.convertTextareas();
+            var rta = new RichTextArea("#content");            
             $("#save").click(function(e) {
-                RichTextEditor.export(editors);
-//                rte.export();
+                rta.export();
                 alert($("#content").text());
             });
         });
