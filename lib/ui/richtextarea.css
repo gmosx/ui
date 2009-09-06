@@ -1,6 +1,7 @@
 .richtextarea-toolbar {
     background: #f7f7f7;
-    padding: 2px;
+    border: 1px solid #f7f7f7;
+    padding: 0;
     margin: 0;
     overflow: hidden;
 }
