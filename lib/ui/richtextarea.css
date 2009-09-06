@@ -1,3 +1,20 @@
+.richtextarea-toolbar {
+    background: #f7f7f7;
+    padding: 2px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.richtextarea-toolbar img.button {
+    border: 1px solid #f7f7f7;
+    display: float;
+    margin: 0;
+}
+
+.richtextarea-toolbar img.button:hover {
+    border: 1px solid #ddd;
+}
+
 textarea.richtextarea {
     display: none;
 }
