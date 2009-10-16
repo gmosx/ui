@@ -1,0 +1,36 @@
+fieldset {  
+	border: none;
+    margin: 0;  
+    padding: 0;
+}
+
+legend {  
+	display: none;
+}
+
+fieldset ol {  
+    list-style: none;
+	margin: 0;
+    padding: 0;  
+}
+
+fieldset li {
+    padding-bottom: 1em;
+}
+
+fieldset.submit {  
+    border: none;
+    margin-top: 1em;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    width: 90%;	
+}
+
+input, textarea {
+    border: 1px solid;
+}
