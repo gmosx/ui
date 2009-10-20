@@ -1,14 +1,15 @@
 .richtextarea-toolbar {
     background: #f7f7f7;
     border: 1px solid #f7f7f7;
-    padding: 0;
+    height: 26px;
     margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
 .richtextarea-toolbar img.button {
     border: 1px solid #f7f7f7;
-    display: float;
+    float: left;
     margin: 0;
 }
 
@@ -16,11 +17,27 @@
     border: 1px solid #ddd;
 }
 
+.richtextarea-toolbar span.button {
+    border: 1px solid #f7f7f7;
+    float: left;
+    font-size: 10px;
+    color: #06d;
+    cursor: pointer;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.richtextarea-toolbar span.button:hover {
+    color: #28f;
+}
+
 textarea.richtextarea {
-    display: none;
+    background: #fff;
+    border: 1px solid;
 }
 
 iframe.richtextarea {
-    border: 1px solid #ccc;
+    background: #fff;
+    border: 1px solid;
 }
 
